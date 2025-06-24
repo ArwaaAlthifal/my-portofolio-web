@@ -61,7 +61,7 @@ function Navbar() {
         <li className="hover:text-amber-400 cursor-pointer"><a href="#contact">Contact</a></li>
         <li>
           <Button classname="bg-[#8291ff36] hover:bg-[#272727]">
-            <a href="login">Sign Up</a>
+            <a href="/login" target="_blank">Sign Up</a>
           </Button>
         </li>
       </ul>
