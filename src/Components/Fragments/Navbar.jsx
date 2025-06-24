@@ -55,13 +55,13 @@ function Navbar() {
         } absolute md:static top-16 left-0 w-full md:w-auto flex-col md:flex-row items-start md:items-center gap-4 md:gap-4 
         bg-[#131313] md:bg-transparent px-6 py-4 md:p-0 md:flex rounded-b-lg`}
       >
-        <li className="hover:text-amber-400 cursor-pointer">Home</li>
-        <li className="hover:text-amber-400 cursor-pointer">About</li>
-        <li className="hover:text-amber-400 cursor-pointer">Experiences</li>
-        <li className="hover:text-amber-400 cursor-pointer">Study</li>
+        <li className="hover:text-amber-400 cursor-pointer"><a href="#about">About</a></li>
+        <li className="hover:text-amber-400 cursor-pointer"><a href="#ed">Education</a></li>
+        <li className="hover:text-amber-400 cursor-pointer"><a href="#exp">Experiences</a></li>
+        <li className="hover:text-amber-400 cursor-pointer"><a href="#contact">Contact</a></li>
         <li>
           <Button classname="bg-[#8291ff36] hover:bg-[#272727]">
-            <a href="/login" target="blank">Sign Up</a>
+            <a href="/login">Sign Up</a>
           </Button>
         </li>
       </ul>

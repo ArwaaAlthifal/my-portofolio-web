@@ -23,7 +23,7 @@ function HomePage() {
   return (
     <div className="relative bg-[#131313] text-white overflow-hidden">
       {/* Section Hero */}
-      <section className="min-h-screen flex items-center justify-center relative px-4">
+      <section id="about" className="min-h-screen flex items-center justify-center relative px-4">
         <div
           className="absolute w-40 h-40 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-50 lg:h-60 bg-[#a5cfff] opacity-25 blur-3xl top-1 left-1/3"
           style={{ transform: "rotate(30deg)" }}
@@ -53,7 +53,7 @@ function HomePage() {
       </section>
 
       {/* Section Kedua */}
-      <section className="py-4 px-4 bg-[#151414]">
+      <section id="ed" className="sectiondua py-4 px-4 bg-[#151414]">
         <div className="flex items-center justify-center">
           <img
             src="/images/fotoweb.png"
@@ -75,7 +75,7 @@ function HomePage() {
       </section>
 
       {/* Section Ketiga */}
-      <section className="min-h-screen justify-center relative px-4 py-20">
+      <section id="exp" className="sectiontiga min-h-screen justify-center relative px-4 py-20">
         <div className="text-center relative z-10">
           <h1 className="font-bold text-md md:text-xl lg:text-2xl">
             Work Project
@@ -195,7 +195,7 @@ function HomePage() {
       </section>
 
       {/* Section Kedua */}
-      <section className=" justify-center relative px-4 py-20">
+      <section className="sectionempat justify-center relative px-4 py-20">
         <div className="text-center relative z-10">
           <h1 className="font-bold text-md md:text-xl lg:text-2xl">
             Work Experiences
@@ -240,7 +240,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="flex-row relative px-4 py-20 justify-center items-center">
+      <section id="contact" className="sectionlima flex-row relative px-4 py-20 justify-center items-center">
         <div className="text-center relative z-10">
           <h1 className="font-light text-3xl md:text-xl lg:text-5xl mb-10">
             Get In <span className="font-bold">Touch.</span>
