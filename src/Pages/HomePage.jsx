@@ -45,7 +45,7 @@ function HomePage() {
             systems, networks, and web development.
           </p>
           <button className="mt-5 border px-4 py-1 md:px-4 md:py-1 lg:px-4 lg:py-1 rounded-xl hover:bg-slate-700 transition duration-300">
-            <a className="text-sm md:text-md lg:text-base" href="https://drive.google.com/file/d/1k49f8p-boNLW5C_U9Xqc_eWAYKAlRUje/view?usp=drive_link">
+            <a className="text-sm md:text-md lg:text-base" href="https://drive.google.com/file/d/1yeVpTfTK5aQwIFUXq1U1WWbMUAmubE9o/view?usp=drive_link">
               Download CV
             </a>
           </button>
